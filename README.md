@@ -1,4 +1,5 @@
 Seccion 1
+<img width="1373" height="550" alt="image" src="https://github.com/user-attachments/assets/6c692a73-2218-495a-bf1d-becb03e0dcf7" />
 <img width="1000" height="514" alt="Zdig" src="https://github.com/user-attachments/assets/abb2cf4c-b0d5-4707-b470-445ae4d92048" />
 Seccion 2
 <img width="1379" height="1006" alt="make wv" src="https://github.com/user-attachments/assets/79c6a4b7-8f3b-4772-9ca5-1533811b0cf4" />
