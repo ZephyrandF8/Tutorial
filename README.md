@@ -8,6 +8,8 @@ Seccion 2
 <img width="1079" height="341" alt="make test en lcd_spi" src="https://github.com/user-attachments/assets/21f14939-8556-4f62-ad74-77df382808c6" />
 <img width="948" height="176" alt="make synth" src="https://github.com/user-attachments/assets/b0042787-09c0-4577-9fa1-691983c8180f" />
 <img width="1125" height="245" alt="make synth y pnr led" src="https://github.com/user-attachments/assets/fa9eab9d-fa01-4c60-bdbf-f778dda99f77" />
+![Imagen de WhatsApp 2025-08-14 a las 19 37 14_8728d176](https://github.com/user-attachments/assets/378b28a9-7117-46b3-b596-5fe724dc5c1c)
+
 
 Seccion 3
 ![Funcionamiento2](https://github.com/user-attachments/assets/99c7f940-47f5-4f7a-b40b-4e1fa738dbe6)
