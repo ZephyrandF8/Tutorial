@@ -17,4 +17,3 @@ Seccion 3
 <img width="1255" height="859" alt="Make synth" src="https://github.com/user-attachments/assets/7f054505-d30e-461c-a695-3b6b5c504240" />
 <img width="1214" height="294" alt="Make bitstream make load" src="https://github.com/user-attachments/assets/5c901251-0ac0-4db7-adac-fee6f92f80b9" />
 
-Codigo del video
