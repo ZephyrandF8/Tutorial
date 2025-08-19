@@ -17,3 +17,81 @@ Seccion 3
 <img width="1255" height="859" alt="Make synth" src="https://github.com/user-attachments/assets/7f054505-d30e-461c-a695-3b6b5c504240" />
 <img width="1214" height="294" alt="Make bitstream make load" src="https://github.com/user-attachments/assets/5c901251-0ac0-4db7-adac-fee6f92f80b9" />
 
+
+Design
+module module_counter # ( 
+    parameter COUNT= 13500000 //contador parametrizable que cuenta hasta 13500 000 , ese valor es porque el clk es de 27Mhz, por lo que cada segundo llega a ese numero apox
+)(
+    input logic clk,
+    input logic rst, 
+
+    output logic [5 : 0] count_o //[de: hasta] // y el nombre que tendra esa cuenta de bits  
+);
+    localparam WIDTH_COUNT =$clog2(COUNT);  // me dice cuantos bits necesito para representar el count 
+    logic[WIDTH_COUNT - 1: 0] clk_counter = '0; //variable tipo logic que cuenta de width-1 a 0 cuyo nombre es clk_counter y se inizializa en 0, el apostrofe dice que all bits van a 0
+    logic [5 : 0] led_count_r; // una varable registrada  que seran flipflops para almacenar los valores de  cada bit
+
+    always_ff @(posedge clk) begin //always ff viene a decir que hay un flip flop y que en el flanco positivo de reloj haga algo
+        if (!rst) begin   // la !rst viene a indicar negacion y que se activa en bajo
+            led_count_r <= '0;
+            clk_counter <= '0;
+        end 
+        else if (clk_counter==COUNT-1) begin //esto hace que cuando lleguemos a 13500 000 se reinicie el clk, al haber contado un segundo
+            clk_counter <= '0;
+            led_count_r <= led_count_r + 1'b1; //aumenta en 1 la representacion de la cuenta, que es visual a traves de las luces
+        end 
+        else begin
+            clk_counter <= clk_counter + 1'b1; //Si no llegamos a la cuenta maxima y tampoco se resetea, el sigue contando añadiendo =1 
+            led_count_r <= led_count_r; // Pero la cuenta se mantiene igual
+        end
+    end
+
+    assign count_o = ~led_count_r;   //La cuenta que va a los es la cuenta de leds negados
+
+endmodule 
+
+
+Testbench
+`timescale 1ns/1ps    
+
+module module_counter_tb;
+
+    logic clk;                  // Los estimulos
+    logic rst;
+    logic [5 : 0 ] count_o;
+
+    module_counter # (10)  COUNTER( //La instancia del modulo 
+        .clk (clk),
+        .rst (rst), 
+        .count_o(count_o)
+    );
+
+    initial begin //Inciar la simulacion
+        clk = 0;
+        rst = 1;
+
+        #30; //Despues de 30unidades de tiempo, 30nS
+
+        rst = 0; //Resetamos
+        #30;      
+
+        rst=1;    //dejamos de resetear
+
+        # 300000;  
+        $finish;    //fonalizamos la simulacion
+    end
+    always begin
+        clk = ~clk;
+        #10;       
+    end
+
+    initial begin
+        $dumpfile("module_counter_tb.vcd");
+        $dumpvars(0, module_counter_tb);  //0, nombre del modulo 
+    end
+    
+endmodule
+
+
+Constrains
+<img width="1116" height="510" alt="image" src="https://github.com/user-attachments/assets/84fb7110-1e94-4801-9aa7-fff2857c92c9" />
