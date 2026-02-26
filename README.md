@@ -1,4 +1,4 @@
-Seccion 1
+1. Instalación de las herramientas
 <img width="1373" height="550" alt="image" src="https://github.com/user-attachments/assets/6c692a73-2218-495a-bf1d-becb03e0dcf7" />
 <img width="1000" height="514" alt="Zdig" src="https://github.com/user-attachments/assets/abb2cf4c-b0d5-4707-b470-445ae4d92048" />
 Seccion 2
