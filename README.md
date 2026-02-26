@@ -1,10 +1,13 @@
 # 1. Instalación de las herramientas
    LUSHY CODE Y OSSCAD  SUITE
-<img width="1373" height="550" alt="image" src="https://github.com/user-attachments/assets/6c692a73-2218-495a-bf1d-becb03e0dcf7" />
+<img width="1035" height="631" alt="image" src="https://github.com/user-attachments/assets/0fdd18b7-fc4b-4674-bd48-d62b36c71ebd" />
+
 Zadig
 <img width="1000" height="514" alt="Zdig" src="https://github.com/user-attachments/assets/abb2cf4c-b0d5-4707-b470-445ae4d92048" />
+
 Instalacion de GNUWin32
 <img width="921" height="358" alt="image" src="https://github.com/user-attachments/assets/2fc491e7-7997-414f-a057-cf9f307ed850" />
+
 Ruta de path ejecutada para zadig 
 <img width="1884" height="860" alt="image" src="https://github.com/user-attachments/assets/9f488c4a-9c95-4e88-8d0f-eb7285fd5a77" />
 
