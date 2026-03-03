@@ -35,7 +35,6 @@ Ruta de path ejecutada para zadig
 #3.Crear diseños propios e implementarlos en la FPGA
 ![Funcionamiento2](https://github.com/user-attachments/assets/99c7f940-47f5-4f7a-b40b-4e1fa738dbe6)
 ![Funcionamiento1](https://github.com/user-attachments/assets/b5865e86-bd78-4c03-acd2-5ef4eb982a3e)
-<img width="1255" height="859" alt="Make synth" src="https://github.com/user-attachments/assets/7f054505-d30e-461c-a695-3b6b5c504240" />
 
 Forografia del contador en bits con las luces
 <img width="3060" height="4080" alt="image" src="https://github.com/user-attachments/assets/0c65dad0-10e1-4024-aa03-2dac2d9393c1" />
