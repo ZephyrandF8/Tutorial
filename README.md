@@ -32,10 +32,10 @@ Ruta de path ejecutada para zadig
    <img width="948" height="176" alt="make synth" src="https://github.com/user-attachments/assets/b0042787-09c0-4577-9fa1-691983c8180f" />
    <img width="1125" height="245" alt="make synth y pnr led" src="https://github.com/user-attachments/assets/fa9eab9d-fa01-4c60-bdbf-f778dda99f77" />
 
-3. Descarga de la plantilla.
+# 3. Descarga de la plantilla.
 <img width="576" height="34" alt="image" src="https://github.com/user-attachments/assets/10d384ce-e16c-4532-a8d2-bd5bedcd3069" />
 
-
+# 4. Primer diseño... Display 7 segmentos
 
 
 ![Funcionamiento2](https://github.com/user-attachments/assets/99c7f940-47f5-4f7a-b40b-4e1fa738dbe6)
