@@ -37,6 +37,7 @@ Ruta de path ejecutada para zadig
 
 # 4. Primer diseño... Display 7 segmentos
 HDL (Hardware Description Language)
+
 <img width="1860" height="1014" alt="image" src="https://github.com/user-attachments/assets/a2f9fdc7-f8f6-4ab7-8ccb-960d600d4984" />
 
 # 5. Primer diseño secuencial, desde el RTL hasta el bitstream
