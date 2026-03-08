@@ -48,8 +48,9 @@ Enciende #2
 
 # 5. Primer diseño secuencial, desde el RTL hasta el bitstream
 
-![Funcionamiento2](https://github.com/user-attachments/assets/99c7f940-47f5-4f7a-b40b-4e1fa738dbe6)
-![Funcionamiento1](https://github.com/user-attachments/assets/b5865e86-bd78-4c03-acd2-5ef4eb982a3e)
+<img width="3060" height="4080" alt="image" src="https://github.com/user-attachments/assets/0ecce049-8c13-4a89-a15a-4de58518596e" />
+
+
 
 Forografia del contador en bits con las luces
 <img width="3060" height="4080" alt="image" src="https://github.com/user-attachments/assets/0c65dad0-10e1-4024-aa03-2dac2d9393c1" />
