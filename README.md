@@ -39,6 +39,12 @@ Ruta de path ejecutada para zadig
 HDL (Hardware Description Language)
 
 <img width="1860" height="1014" alt="image" src="https://github.com/user-attachments/assets/a2f9fdc7-f8f6-4ab7-8ccb-960d600d4984" />
+Fotografias de la compuerta fisica 
+Enciende #1
+<img width="1220" height="2712" alt="image" src="https://github.com/user-attachments/assets/42f01a7d-3918-478d-b384-6192561d4acd" />
+Enciende #2
+<img width="1220" height="2712" alt="image" src="https://github.com/user-attachments/assets/01d89510-afde-46cc-911e-72e1b6a9fccb" />
+
 
 # 5. Primer diseño secuencial, desde el RTL hasta el bitstream
 
